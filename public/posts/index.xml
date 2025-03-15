@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/posts/sysmon-configuration-file-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/sysmon-configuration-file-1/</guid>
+      <description>&lt;p&gt;2025-02-12 12:05&lt;/p&gt;&#xA;&lt;p&gt;Status:&lt;/p&gt;&#xA;&lt;p&gt;Tags: [[3 - Tags/Sysmon|Sysmon]] [[Security]] [[Logs Analysis]]&lt;/p&gt;&#xA;&lt;h1 id=&#34;sysmon-configuration-file&#34;&gt;Sysmon Configuration File&lt;/h1&gt;&#xA;&lt;p&gt;For more granular control over what events get logged, Sysmon uses an XML-based configuration file. The configuration file allows you to include or exclude certain types of events based on different attributes like process names, IP addresses, etc. We can refer to popular examples of useful Sysmon configuration files:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;For a comprehensive configuration, we can visit: &lt;a href=&#34;https://github.com/SwiftOnSecurity/sysmon-config&#34;&gt;https://github.com/SwiftOnSecurity/sysmon-config&lt;/a&gt;. &amp;lt;&amp;ndash; &lt;code&gt;We will use this one in this section!&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Another option is: &lt;a href=&#34;https://github.com/olafhartong/sysmon-modular&#34;&gt;https://github.com/olafhartong/sysmon-modular&lt;/a&gt;, which provides a modular approach.&#xA;To utilize a custom Sysmon configuration, execute the following after installing Sysmon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;C:\Tools\Sysmon&amp;gt; sysmon.exe -c filename.xml&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: It should be noted that &lt;a href=&#34;https://github.com/Sysinternals/SysmonForLinux&#34;&gt;Sysmon for Linux&lt;/a&gt; also exists.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
