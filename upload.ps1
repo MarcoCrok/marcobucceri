@@ -95,61 +95,26 @@ try {
     exit 1
 }
 
-# Step 5: Add changes to Git
-Write-Host "Staging changes for Git..."
-$hasChanges = (git status --porcelain) -ne ""
-if (-not $hasChanges) {
-    Write-Host "No changes to stage."
+# Step 5: Stage all changes for git
+Write-Host "Adding changes to Git..." -ForegroundColor Cyan
+git add .
+
+# Step 6: Commit changes with a timestamp
+$commitMessage = "Site update: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+Write-Host "Committing with message: $commitMessage" -ForegroundColor Cyan
+git commit -m "$commitMessage"
+
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "Nothing to commit. Skipping push." -ForegroundColor Yellow
+    exit
+}
+
+# Step 7: Push changes to GitHub (origin main)
+Write-Host "Pushing changes to GitHub..." -ForegroundColor Cyan
+git push origin main
+
+if ($LASTEXITCODE -eq 0) {
+    Write-Host "Deployment successful!" -ForegroundColor Green
 } else {
-    git add .
+    Write-Error "Failed to push changes to GitHub."
 }
-
-# Step 6: Commit changes with a dynamic message
-$commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-$hasStagedChanges = (git diff --cached --name-only) -ne ""
-if (-not $hasStagedChanges) {
-    Write-Host "No changes to commit."
-} else {
-    Write-Host "Committing changes..."
-    git commit -m "$commitMessage"
-}
-
-# Step 7: Push all changes to the main branch
-Write-Host "Deploying to GitHub Master..."
-try {
-    git push origin master
-} catch {
-    Write-Error "Failed to push to Master branch."
-    exit 1
-}
-
-# Step 8: Push the public folder to the hostinger branch using subtree split and force push
-Write-Host "Deploying to GitHub Hostinger..."
-
-# Check if the temporary branch exists and delete it
-$branchExists = git branch --list "hostinger-deploy"
-if ($branchExists) {
-    git branch -D hostinger-deploy
-}
-
-# Perform subtree split
-try {
-    git subtree split --prefix public -b hostinger-deploy
-} catch {
-    Write-Error "Subtree split failed."
-    exit 1
-}
-
-# Push to hostinger branch with force
-try {
-    git push origin hostinger-deploy:hostinger --force
-} catch {
-    Write-Error "Failed to push to hostinger branch."
-    git branch -D hostinger-deploy
-    exit 1
-}
-
-# Delete the temporary branch
-git branch -D hostinger-deploy
-
-Write-Host "All done! Site synced, processed, committed, built, and deployed."
