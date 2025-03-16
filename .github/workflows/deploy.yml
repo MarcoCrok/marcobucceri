@@ -1,4 +1,4 @@
-name: Deploy Hugo site via FTP to Namecheap
+name: Deploy Hugo Site to Namecheap
 
 on:
   push:
@@ -8,10 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
@@ -20,11 +18,11 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Build Site
+      - name: Build Hugo Site
         run: hugo --minify
 
-      - name: Deploy to Namecheap via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+      - name: FTP Deploy to Namecheap
+        uses: SamKirkland/FTP-Deploy-Action@4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
