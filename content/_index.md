@@ -1,8 +1,3 @@
----
-title: "Welcome!"
-date: 2025-03-17
----
-
 Hello everyone!
 
 ![[picture]](/Images/Image1.png)
