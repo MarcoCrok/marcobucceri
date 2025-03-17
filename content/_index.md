@@ -1,6 +1,6 @@
 Hello everyone!
 
-![[picture]](/static/Images/Image1.png)
+![[picture]](
 
 I'm Marco, and this is my website. Check out my tutorials, tips, and other content:
 
