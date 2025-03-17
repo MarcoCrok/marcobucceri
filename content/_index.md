@@ -1,7 +1,6 @@
 Hello everyone!
 
-![picture](marcobucceri/public/images
-/Image1.png)
+![[picture]](marcobucceri/public/images/Image1.png)
 
 I'm Marco, and this is my website. Check out my tutorials, tips, and other content:
 
