@@ -2,18 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/sysmon-configuration-file-1/</loc>
+    <loc>/about/</loc>
+    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/test/</loc>
-  </url><url>
-    <loc>/posts/about/</loc>
+    <loc>/</loc>
+    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/posts/</loc>
-  </url><url>
     <loc>/tags/</loc>
-  </url><url>
-    <loc>/</loc>
   </url>
 </urlset>

@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
+    <title>Welcome! on Terminal</title>
     <link>/</link>
-    <description>Recent content on Terminal</description>
+    <description>Recent content in Welcome! on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>/posts/sysmon-configuration-file-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/posts/sysmon-configuration-file-1/</guid>
-      <description>&lt;p&gt;2025-02-12 12:05&lt;/p&gt;&#xA;&lt;p&gt;Status:&lt;/p&gt;&#xA;&lt;p&gt;Tags: [[3 - Tags/Sysmon|Sysmon]] [[Security]] [[Logs Analysis]]&lt;/p&gt;&#xA;&lt;h1 id=&#34;sysmon-configuration-file&#34;&gt;Sysmon Configuration File&lt;/h1&gt;&#xA;&lt;p&gt;For more granular control over what events get logged, Sysmon uses an XML-based configuration file. The configuration file allows you to include or exclude certain types of events based on different attributes like process names, IP addresses, etc. We can refer to popular examples of useful Sysmon configuration files:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;For a comprehensive configuration, we can visit: &lt;a href=&#34;https://github.com/SwiftOnSecurity/sysmon-config&#34;&gt;https://github.com/SwiftOnSecurity/sysmon-config&lt;/a&gt;. &amp;lt;&amp;ndash; &lt;code&gt;We will use this one in this section!&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Another option is: &lt;a href=&#34;https://github.com/olafhartong/sysmon-modular&#34;&gt;https://github.com/olafhartong/sysmon-modular&lt;/a&gt;, which provides a modular approach.&#xA;To utilize a custom Sysmon configuration, execute the following after installing Sysmon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;C:\Tools\Sysmon&amp;gt; sysmon.exe -c filename.xml&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: It should be noted that &lt;a href=&#34;https://github.com/Sysinternals/SysmonForLinux&#34;&gt;Sysmon for Linux&lt;/a&gt; also exists.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>/posts/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/posts/test/</guid>
-      <description>&lt;p&gt;2025-03-15 19:09&lt;/p&gt;&#xA;&lt;h1 id=&#34;test2&#34;&gt;test2&lt;/h1&gt;&#xA;&lt;p&gt;test test&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250315191039.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>/posts/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/posts/about/</guid>
-      <description>&lt;p&gt;2025-03-16&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Hello everyone!&#xA;I&amp;rsquo;m Marco, an IT Support Specialist with a passion for repairing (and occasionally breaking, just for fun!) tech stuff and rescuing users who seem perpetually at war with their computers.&lt;/p&gt;&#xA;&lt;p&gt;This website is dedicated to anyone brave enough to venture into the world of IT support. I&amp;rsquo;ll clarify essential IT concepts and give you an insider&amp;rsquo;s look into the exciting (and sometimes hair-pulling) daily adventures of an IT Support Engineer. Expect tutorials, tips, and maybe a bit of sarcasm to guide you through common IT challenges.&lt;/p&gt;</description>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description>&lt;p&gt;This is my bio.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
