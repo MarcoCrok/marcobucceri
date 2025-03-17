@@ -74,10 +74,10 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "MarcoInTech"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "marcobucceri.com"
       owner = ""
       keywords = ""
       copyright = ""

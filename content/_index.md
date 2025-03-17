@@ -1,6 +1,6 @@
 Hello everyone!
 
-![[picture]](/static/Images/Image1.png)
+![image](https://github.com/user-attachments/assets/9653fecf-77ac-4ad5-9311-a4675931bf0c)
 
 I'm Marco, and this is my website. Check out my tutorials, tips, and other content:
 
