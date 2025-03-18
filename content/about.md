@@ -1,7 +1,7 @@
 ---
 title: "About"
 ---
-Born in 1990, I grew up in a small, quiet seaside town in Sicily. At the age of two, I lost my mother, leaving my father with the full weight of the family on his shoulders, supported immensely by my aunt and older sister. Despite the challenges, I had a peaceful upbringing, making my first friends at school and playing for the local football team.
+Born in 1990, I grew up in a small, quiet seaside town in Sicily. At the age of two, I lost my mother, leaving my father with the full weight of the family on his shoulders, supported immensely by my aunt and older sisters. Despite the challenges, I had a peaceful upbringing, making my first friends at school and playing for the local football team.
 
 My journey into IT began around 1996 when my father brought home a strange gray metal box, a screen resembling a TV, and a couple of peripherals—a mouse and a keyboard.
 He set everything up on the desk, pressed the power button, and there it was—the magic of Windows 95. I was mesmerized.
@@ -35,7 +35,8 @@ By May, I landed an internship as an IT Support Technician for two major interna
 I completed my internship in August, securing my first official IT job as a Level 2 IT Support Technician at a Swiss MSP, supporting two global enterprises in Geneva. This was a whole new level—fast-paced, high-pressure. Supporting over 2,000 users, I handled everything from routine password resets to critical network outages, collaborating closely with the networking team to resolve major incidents.
 
 In 2022, I received an award from one of the companies I supported, recognized as one of the top IT professionals in their Finance & Administration Division—an incredible milestone.
-But the greatest gift of all arrived in October—my son was born. Nothing could match that joy.
+
+But the greatest gift of all arrived in October—my son Killian was born. Nothing could match that joy.
 
 In 2023, I stepped into a new role as IT Support Team Coordinator. I managed task orchestration, incident handling, and direct reporting to my manager. My responsibilities expanded to include networking investigations, high-impact incidents, and VIP support.
 
