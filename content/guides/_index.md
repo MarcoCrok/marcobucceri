@@ -1,7 +1,7 @@
 ---
 title: "Guides"
 description: "Guides covering setup processes, configurations, and best practices."
-layout: "guides"  # This prevents Hugo from auto-listing posts
+layout: "guides"  # This forces Hugo to use the correct template
 ---
 
 ## Guides covering setup processes, configurations, and best practices.  
