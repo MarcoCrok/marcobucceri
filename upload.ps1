@@ -1,11 +1,9 @@
-# PowerShell Script for Windows
+# PowerShell Script for Deploying Hugo to GitHub Pages
 
-# Set variables for Obsidian to Hugo copy
+# Set variables
 $sourcePath = "C:\Users\Marco\OneDrive\Documents\Obsidian Vault\Posts"
 $destinationPath = "C:\Users\Marco\marcobucceri\public\posts"
-
-# Set Github repo 
-$myrepo = "reponame"
+$myrepo = "https://github.com/MarcoCrok/marcobucceri.git"
 
 # Set error handling
 $ErrorActionPreference = "Stop"
@@ -15,93 +13,34 @@ Set-StrictMode -Version Latest
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 Set-Location $ScriptDir
 
-# Check for required commands
-$requiredCommands = @('git', 'hugo')
-
-# Check for Python command (python or python3)
-if (Get-Command 'python' -ErrorAction SilentlyContinue) {
-    $pythonCommand = 'python'
-} elseif (Get-Command 'python3' -ErrorAction SilentlyContinue) {
-    $pythonCommand = 'python3'
-} else {
-    Write-Error "Python is not installed or not in PATH."
-    exit 1
-}
-
-foreach ($cmd in $requiredCommands) {
-    if (-not (Get-Command $cmd -ErrorAction SilentlyContinue)) {
-        Write-Error "$cmd is not installed or not in PATH."
-        exit 1
-    }
-}
-
-# Step 1: Check if Git is initialized, and initialize if necessary
+# Check if Git is initialized
 if (-not (Test-Path ".git")) {
     Write-Host "Initializing Git repository..."
     git init
     git remote add origin $myrepo
-} else {
-    Write-Host "Git repository already initialized."
-    $remotes = git remote
-    if (-not ($remotes -contains 'origin')) {
-        Write-Host "Adding remote origin..."
-        git remote add origin $myrepo
-    }
 }
 
-# Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
-Write-Host "Syncing posts from Obsidian..."
-
-if (-not (Test-Path $sourcePath)) {
-    Write-Error "Source path does not exist: $sourcePath"
-    exit 1
+# Ensure remote origin is correct
+$remotes = git remote
+if (-not ($remotes -contains 'origin')) {
+    git remote add origin $myrepo
 }
 
-if (-not (Test-Path $destinationPath)) {
-    Write-Error "Destination path does not exist: $destinationPath"
-    exit 1
-}
+# Pull latest changes and prevent merge conflicts
+Write-Host "Pulling latest changes from GitHub..." -ForegroundColor Cyan
+git pull origin master --rebase --strategy=recursive -X theirs
 
-# Use Robocopy to mirror the directories
-$robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
-$robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
+# Build Hugo site and ensure it outputs to `public/`
+Write-Host "Building the Hugo site..." -ForegroundColor Green
+hugo --destination public
 
-if ($LASTEXITCODE -ge 8) {
-    Write-Error "Robocopy failed with exit code $LASTEXITCODE"
-    exit 1
-}
+# Stage all changes except this script
+Write-Host "Staging changes for commit..." -ForegroundColor Cyan
+git add . ':!upload.ps1'
 
-# Step 3: Process Markdown files with Python script to handle image links
-Write-Host "Processing image links in Markdown files..."
-if (-not (Test-Path "images.py")) {
-    Write-Error "Python script images.py not found."
-    exit 1
-}
-
-# Execute the Python script
-try {
-    & $pythonCommand images.py
-} catch {
-    Write-Error "Failed to process image links."
-    exit 1
-}
-
-# Step 4: Build the Hugo site
-Write-Host "Building the Hugo site..."
-try {
-    hugo
-} catch {
-    Write-Error "Hugo build failed."
-    exit 1
-}
-
-# Step 5: Stage all changes for git
-Write-Host "Adding changes to Git..." -ForegroundColor Cyan
-git add .
-
-# Step 6: Commit changes with a timestamp
+# Commit with timestamp
 $commitMessage = "Site update: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-Write-Host "Committing with message: $commitMessage" -ForegroundColor Cyan
+Write-Host "Committing changes..." -ForegroundColor Cyan
 git commit -m "$commitMessage"
 
 if ($LASTEXITCODE -ne 0) {
@@ -109,9 +48,9 @@ if ($LASTEXITCODE -ne 0) {
     exit
 }
 
-# Step 7: Push changes to GitHub (origin main)
-Write-Host "Pushing changes to GitHub..." -ForegroundColor Cyan
-git push origin main
+# Push to the correct branch (adjust if needed)
+Write-Host "Pushing changes to GitHub..." -ForegroundColor Green
+git push origin master --force  # Change `master` to `gh-pages` if needed
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host "Deployment successful!" -ForegroundColor Green
