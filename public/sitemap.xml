@@ -8,9 +8,6 @@
     <loc>/contacts/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/guides/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/guides/win_executables/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -19,6 +16,8 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/cybersecurity/</loc>
+  </url><url>
+    <loc>/guides/</loc>
   </url><url>
     <loc>/tools/</loc>
   </url><url>

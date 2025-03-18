@@ -37,6 +37,13 @@
       <description>&lt;p&gt;&lt;em&gt;Essential guides and best practices for protecting systems, networks, and data from cyber threats. Learn about security tools, threat mitigation, and proactive measures to safeguard your digital environment.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
+      <title>Guides</title>
+      <link>/guides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/guides/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Guides covering setup processes, configurations, and best practices. Whether you&amp;rsquo;re setting up a new system or making changes, these step-by-step tutorials will help you navigate IT support tasks efficiently.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+    <item>
       <title>Software</title>
       <link>/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
