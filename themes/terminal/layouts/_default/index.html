@@ -4,6 +4,19 @@
       {{ .Content }}
     </div>
   {{ end }}
+
+  <!-- LATEST POSTS SECTION -->
+  <h2 style="text-align: center; margin-top: 30px;">📢 Latest Posts</h2>
+  <ul>
+      {{ range first 5 (where .Site.RegularPages "Section" "in" (slice "guides" "tools" "troubleshooting" "cybersecurity")) }}
+      <li>
+          <span style="float: left; color: gray; margin-right: 10px;">{{ .Date.Format "02.01.2006" }} |</span>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+  </ul>
+  <hr>
+
   <div class="posts">
     {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
     {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}

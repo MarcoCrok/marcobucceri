@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
+      <guid>/about/about/</guid>
       <description>&lt;p&gt;Born in 1990, I grew up in a small, quiet seaside town in Sicily. At the age of two, I lost my mother, leaving my father with the full weight of the family on his shoulders, supported immensely by my aunt and older sisters. Despite the challenges, I had a peaceful upbringing, making my first friends at school and playing for the local football team.&lt;/p&gt;&#xA;&lt;p&gt;My journey into IT began around 1996 when my father brought home a strange gray metal box, a screen resembling a TV, and a couple of peripherals—a mouse and a keyboard.&#xA;He set everything up on the desk, pressed the power button, and there it was—the magic of Windows 95. I was mesmerized.&lt;/p&gt;</description>
     </item>
     <item>
@@ -35,13 +35,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/cybersecurity/</guid>
       <description>&lt;p&gt;&lt;em&gt;Essential guides and best practices for protecting systems, networks, and data from cyber threats. Learn about security tools, threat mitigation, and proactive measures to safeguard your digital environment.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;</description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tools/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Recommendations, reviews, and guides on essential software for IT support. From system utilities to network management tools, discover the best programs to streamline your workflow and enhance efficiency.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
       <title>Troubleshooting</title>
