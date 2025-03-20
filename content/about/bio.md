@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Mini_Bio"
 ---
 Born in 1990, I grew up in a small, quiet seaside town in Sicily. At the age of two, I lost my mother, leaving my father with the full weight of the family on his shoulders, supported immensely by my aunt and older sisters. Despite the challenges, I had a peaceful upbringing, making my first friends at school and playing for the local football team.
 

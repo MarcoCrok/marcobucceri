@@ -4,7 +4,4 @@ description: "Recommendations, reviews, and guides on essential software for IT 
 layout: "tools"  # This forces Hugo to use the correct template
 ---
 
-## Available Guides
-
-- 
 ___

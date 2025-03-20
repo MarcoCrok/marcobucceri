@@ -1,6 +1,42 @@
 {{ define "main" }}
     <h1 style="text-align: center;">🧔🏻‍♂️ {{ .Title }}</h1>
-    <div style="text-align: justify; margin-top: 20px;">
-        {{ .Content }} <!-- Loads the Markdown content -->
+    <p style="text-align: center;">Here you can find all details about me.</p>
+
+    <hr>
+
+    <!-- Loop through all posts in the About section -->
+    {{ range .Pages.ByDate.Reverse }}
+    <div style="padding: 20px; border: 2px solid #8bc97f; border-radius: 5px; max-width: 800px; margin: auto; margin-bottom: 20px;">
+        
+        <h2 style="text-align: center;">{{ .Title }}</h2>
+        
+        <!-- Content Wrapper Without Background -->
+        <div id="content-wrapper-{{ .File.UniqueID }}" 
+             style="text-align: justify; max-height: 150px; overflow: hidden; transition: max-height 0.3s ease; padding: 15px;">
+            {{ .Content }} <!-- Loads each Markdown file content -->
+        </div>
+
+        <!-- Read More Button -->
+        <button onclick="toggleContent('{{ .File.UniqueID }}')" 
+                style="display: block; margin: 15px auto; padding: 8px 20px; color: #8bc97f; border: 2px solid #8bc97f; border-radius: 5px; cursor: pointer; font-weight: bold;">
+            Read More
+        </button>
+
     </div>
+    {{ end }}
+
+    <script>
+        function toggleContent(id) {
+            let contentWrapper = document.getElementById("content-wrapper-" + id);
+            let button = contentWrapper.nextElementSibling;
+
+            if (contentWrapper.style.maxHeight === "150px") {
+                contentWrapper.style.maxHeight = "none";
+                button.innerText = "Read Less";
+            } else {
+                contentWrapper.style.maxHeight = "150px";
+                button.innerText = "Read More";
+            }
+        }
+    </script>
 {{ end }}

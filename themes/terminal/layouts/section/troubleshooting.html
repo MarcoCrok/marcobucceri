@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <h1 style="text-align: center;">🔧 {{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+    <hr>
+    <ul>
+        {{ range .Pages.ByDate.Reverse }} <!-- Sort guides by newest first -->
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span style="float: left; color: gray; margin-right: 10px">{{ .Date.Format "02-01-2006" }} |</span>
+        </li>
+        {{ end }}
+    </ul>
+
+    <hr>
+
+{{ end }}
