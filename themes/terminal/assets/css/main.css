@@ -517,3 +517,33 @@ iframe[src*="youtube.com"] {
     display: initial;
   }
 }
+
+/* Ensure contact section wraps properly and prevents horizontal scrolling */
+.contact-container {
+  max-width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  word-wrap: break-word; /* Forces long words to wrap */
+  white-space: normal; /* Ensures text wraps properly */
+}
+
+/* Fix text alignment and word breaking for small screens */
+@media (max-width: 768px) {
+  .contact-container {
+      padding: 10px;
+  }
+  
+  input, textarea, button {
+      width: 100% !important; /* Ensures full width on small screens */
+      font-size: 16px; /* Improves readability */
+  }
+}
+
+/* Disable textarea resizing */
+textarea {
+  resize: none;
+}
+
+/* Ensure buttons and inputs are responsive */
+button, input, textarea {
+  max-width: 100%;
+}

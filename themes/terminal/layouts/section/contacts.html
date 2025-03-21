@@ -1,37 +1,42 @@
 {{ define "main" }}
-    <h1 style="text-align: center;">Get_In_Touch</h1>
-    
-    <div style="width: 100%; background: black; color: #8bc97f; padding: 20px; border: 2px solid #8bc97f; max-width: 600px; margin: auto;">
-        <pre style="margin: 0;">
-    > Feel free to reach out for collaborations, inquiries, 
-    > or just to say hello!
-    ---------------------------------
-    📧 <a href="mailto:marcobucceri@pm.me" style="color: #8bc97f;">Email</a>
-    🔗 <a href="https://www.linkedin.com/in/marco-bucceri/" target="_blank" style="color: #8bc97f;">LinkedIn</a>
-    🎮 <a href="https://discordapp.com/users/238594579668926464" target="_blank" style="color: #8bc97f;">Discord</a>
-    ---------------------------------
-</pre>
-<h3 style="text-align: center; color:white;">Send_A_Message</h3>
+    <h1 style="text-align: center; color: #8bc97f;">📞 Get In Touch</h1>
 
-<form action="https://formspree.io/f/mnnppvjj" method="POST" 
-      style="max-width: 700px; margin: auto; text-align: center;">
+    <div class="contact-container" 
+         style="width: 100%; padding: 20px; border: 2px solid #8bc97f; 
+                max-width: 700px; margin: auto; text-align: center;">
 
-    <input type="text" id="name" name="name" required placeholder="Your Name"
-           style="width: 100%; padding: 14px; font-size: 16px; background: black; color: white; 
-                  border: 2px solid #8bc97f; margin-bottom: 12px;"><br>
+        <pre style="margin: 0; color: #8bc97f; font-size: 16px; white-space: pre-wrap; word-wrap: break-word; overflow-x: auto;">
+> Feel free to reach out for collaborations, inquiries, or just to say hello!
+---------------------------------
+📧 <a href="mailto:marcobucceri@pm.me" style="color: #8bc97f;">Email</a>
+🔗 <a href="https://www.linkedin.com/in/marco-bucceri/" target="_blank" style="color: #8bc97f;">LinkedIn</a>
+🎮 <a href="https://discordapp.com/users/238594579668926464" target="_blank" style="color: #8bc97f;">Discord</a>
+---------------------------------
+        </pre>
 
-    <input type="email" id="email" name="_replyto" required placeholder="Your Email"
-           style="width: 100%; padding: 14px; font-size: 16px; background: black; color: white; 
-                  border: 2px solid #8bc97f; margin-bottom: 12px;"><br>
+        <h3 style="text-align: center; color: #8bc97f; margin-top: 20px;">Send A Message</h3>
 
-    <textarea id="message" name="message" rows="4" required placeholder="Your Message"
-              style="width: 100%; padding: 14px; font-size: 16px; background: black; color: white; 
-                     border: 2px solid #8bc97f; margin-bottom: 12px; border-radius: 5px; resize: none;"></textarea><br>
+        <form action="https://formspree.io/f/mnnppvjj" method="POST" 
+              style="max-width: 650px; margin: auto; text-align: center;">
 
-    <button type="submit" 
-            style="padding: 14px 20px; font-size: 16px; border: 2px solid #8bc97f; 
-                   background: black; color: #8bc97f; cursor: pointer; font-weight: bold;">
-        Send Message
-    </button>
-</form>
+            <input type="text" id="name" name="name" required placeholder="Your Name"
+                   style="width: 100%; padding: 14px; font-size: 16px; background: transparent; 
+                          color: white; border: 2px solid #8bc97f; margin-bottom: 12px;"><br>
+
+            <input type="email" id="email" name="_replyto" required placeholder="Your Email"
+                   style="width: 100%; padding: 14px; font-size: 16px; background: transparent; 
+                          color: white; border: 2px solid #8bc97f; margin-bottom: 12px;"><br>
+
+            <textarea id="message" name="message" rows="4" required placeholder="Your Message"
+                      style="width: 100%; padding: 14px; font-size: 16px; background: transparent; 
+                             color: white; border: 2px solid #8bc97f; margin-bottom: 12px; 
+                             border-radius: 5px; resize: none;"></textarea><br>
+
+            <button type="submit" 
+                    style="padding: 14px 20px; font-size: 16px; border: 2px solid #8bc97f; 
+                           background: transparent; color: #8bc97f; cursor: pointer; font-weight: bold;">
+                Send Message
+            </button>
+        </form>
+    </div>
 {{ end }}
