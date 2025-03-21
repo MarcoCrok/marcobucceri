@@ -6,8 +6,22 @@
     <description>Recent content on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell Execution Policies: Understanding and Managing Security</title>
+      <link>/cybersecurity/ps_exc_policies/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/cybersecurity/ps_exc_policies/</guid>
+      <description>&lt;h2 id=&#34;-what-are-powershell-execution-policies&#34;&gt;🔹 What Are PowerShell Execution Policies?&lt;/h2&gt;&#xA;&lt;p&gt;PowerShell &lt;strong&gt;execution policies&lt;/strong&gt; are security measures that control how scripts run on a system. They help prevent unauthorized or malicious scripts from executing. However, they are &lt;strong&gt;not a security feature&lt;/strong&gt;—they are a safety measure designed to &lt;strong&gt;prevent accidental script execution&lt;/strong&gt; rather than block malicious code.&lt;/p&gt;&#xA;&lt;p&gt;By default, execution policies are set to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Restricted&lt;/strong&gt; on Windows client systems (no scripts allowed)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;RemoteSigned&lt;/strong&gt; on Windows Server systems (scripts need a signature if downloaded)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To check the current execution policy on your machine, use the command:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding VLANs: A Beginner&#39;s Guide</title>
+      <link>/guides/vlan/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/guides/vlan/</guid>
+      <description>&lt;h1 id=&#34;understanding-vlans-virtual-local-area-networks&#34;&gt;Understanding VLANs: Virtual Local Area Networks&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-a-vlan&#34;&gt;What is a VLAN?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Virtual Local Area Network (VLAN)&lt;/strong&gt; is a method of &lt;strong&gt;network segmentation&lt;/strong&gt; that creates isolated logical networks within a physical switch. Unlike traditional LANs, which rely on &lt;strong&gt;physical topology&lt;/strong&gt; to group devices together, VLANs provide &lt;strong&gt;virtualized segmentation&lt;/strong&gt;, allowing network administrators to define communication boundaries without being restricted by physical connections.&lt;/p&gt;&#xA;&lt;p&gt;Each VLAN functions as an &lt;strong&gt;independent network&lt;/strong&gt;, meaning devices within the same VLAN can communicate directly, while communication between different VLANs requires a &lt;strong&gt;Layer 3 device&lt;/strong&gt; (router or Layer 3 switch). This logical separation improves &lt;strong&gt;security, performance, and network management&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Windows Executables Cheat Sheet</title>
       <link>/guides/win_executables/</link>

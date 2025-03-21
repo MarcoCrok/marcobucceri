@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cybersecurity on MarcoInTech</title>
-    <link>/cybersecurity/</link>
-    <description>Recent content in Cybersecurity on MarcoInTech</description>
+    <title>Scripting on MarcoInTech</title>
+    <link>/tags/scripting/</link>
+    <description>Recent content in Scripting on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/scripting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PowerShell Execution Policies: Understanding and Managing Security</title>
       <link>/cybersecurity/ps_exc_policies/</link>

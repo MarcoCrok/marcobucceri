@@ -8,7 +8,7 @@
   <!-- LATEST POSTS SECTION -->
   <h2 style="text-align: center; margin-top: 30px;">📢 Latest Posts</h2>
   <ul>
-      {{ range first 5 (where .Site.RegularPages "Section" "in" (slice "guides" "tools" "troubleshooting" "cybersecurity")) }}
+      {{ range first 5 (where .Site.RegularPages "Section" "in" (slice "guides" "tools" "troubleshooting" "cybersecurity") ).ByDate.Reverse }}
       <li>
           <span style="float: left; color: gray; margin-right: 10px;">{{ .Date.Format "02.01.2006" }} |</span>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>

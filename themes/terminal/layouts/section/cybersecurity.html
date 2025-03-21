@@ -5,8 +5,8 @@
     <ul>
         {{ range .Pages.ByDate.Reverse }} <!-- Sort guides by newest first -->
         <li>
+            <span style="float: left; color: gray; margin-right: 10px">{{ .Date.Format "02-01-2006" }} </span>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            <span style="float: left; color: gray; margin-right: 10px">{{ .Date.Format "02-01-2006" }} |</span>
         </li>
         {{ end }}
     </ul>

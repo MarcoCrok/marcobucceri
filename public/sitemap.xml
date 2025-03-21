@@ -3,10 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cybersecurity/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/guides/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/it-infrastructure/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/networking/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/powershell/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cybersecurity/ps_exc_policies/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/scripting/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/security/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/guides/vlan/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/vlans/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/guides/win_executables/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
@@ -19,13 +52,9 @@
   </url><url>
     <loc>/contacts/</loc>
   </url><url>
-    <loc>/cybersecurity/</loc>
-  </url><url>
     <loc>/about/bio/</loc>
   </url><url>
     <loc>/tools/</loc>
-  </url><url>
-    <loc>/tags/</loc>
   </url><url>
     <loc>/troubleshooting/</loc>
   </url><url>
