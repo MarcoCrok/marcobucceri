@@ -1,0 +1,37 @@
+{{ define "main" }}
+    <h1 style="text-align: center;">📞 Get_In_Touch</h1>
+    
+    <div style="background: black; color: #8bc97f; padding: 20px; border: 2px solid #8bc97f; max-width: 600px; margin: auto;">
+        <pre style="margin: 0;">
+    > Feel free to reach out for collaborations, inquiries, 
+    > or just to say hello!
+    ---------------------------------
+    📧 <a href="mailto:marcobucceri@pm.me" style="color: #8bc97f;">Email</a>
+    🔗 <a href="https://www.linkedin.com/in/marco-bucceri/" target="_blank" style="color: #8bc97f;">LinkedIn</a>
+    🎮 <a href="https://discordapp.com/users/238594579668926464" target="_blank" style="color: #8bc97f;">Discord</a>
+    ---------------------------------
+</pre>
+<h3 style="text-align: center; color: #8bc97f;">_Send a message:_</h3>
+
+<form action="https://formspree.io/f/mnnppvjj" method="POST" 
+      style="max-width: 700px; margin: auto; text-align: center;">
+
+    <input type="text" id="name" name="name" required placeholder="Your Name"
+           style="width: 100%; padding: 14px; font-size: 16px; background: black; color: white; 
+                  border: 2px solid #8bc97f; margin-bottom: 12px;"><br>
+
+    <input type="email" id="email" name="_replyto" required placeholder="Your Email"
+           style="width: 100%; padding: 14px; font-size: 16px; background: black; color: white; 
+                  border: 2px solid #8bc97f; margin-bottom: 12px;"><br>
+
+    <textarea id="message" name="message" rows="6" required placeholder="Your Message"
+              style="width: 100%; padding: 14px; font-size: 16px; background: black; color: white; 
+                     border: 2px solid #8bc97f; margin-bottom: 12px;"></textarea><br>
+
+    <button type="submit" 
+            style="padding: 14px 20px; font-size: 16px; border: 2px solid #8bc97f; 
+                   background: black; color: #8bc97f; cursor: pointer; font-weight: bold;">
+        Send Message
+    </button>
+</form>
+{{ end }}
