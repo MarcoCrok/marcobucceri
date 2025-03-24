@@ -6,20 +6,41 @@
     <description>Recent content in Tags on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>IT Infrastructure</title>
-      <link>/tags/it-infrastructure/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/it-infrastructure/</guid>
+      <title>Basics</title>
+      <link>/tags/basics/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IT</title>
+      <link>/tags/it/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/it/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
       <link>/tags/networking/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subnetting</title>
+      <link>/tags/subnetting/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/subnetting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IT Infrastructure</title>
+      <link>/tags/it-infrastructure/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/it-infrastructure/</guid>
       <description></description>
     </item>
     <item>

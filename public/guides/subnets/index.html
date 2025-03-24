@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Understanding Network Segmentation and Subnetting :: MarcoInTech</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Why It Matters Whether you&rsquo;re working in IT support, system administration, or cybersecurity, having a solid grasp of network segmentation and subnetting is essential. These concepts form the backbone of modern network design and are critical for building secure, scalable, and high-performance environments.
+Knowing how to segment a network properly allows you to:
+Control and limit access between departments (e.g., finance and HR) Isolate sensitive devices or servers from the rest of the network Reduce the spread of malware or unauthorized traffic in case of a breach Optimize network performance by minimizing unnecessary broadcast traffic You’ll often apply this knowledge in real-world scenarios such as:
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/guides/subnets/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.4f0ccc8439f99bf7f7970298556b94011aabc1fcae743b6842fc3361a2da9ea3.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.4045fbbbe99688536cbeeecc9777b08e16221525c956372a5e5d45a8e0e0b56c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.03cc9f3e754a241d2c83d703b2c337d50f1ab5fcd6d709e5db006809b711f746.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Understanding Network Segmentation and Subnetting">
+<meta property="og:description" content="Why It Matters Whether you&rsquo;re working in IT support, system administration, or cybersecurity, having a solid grasp of network segmentation and subnetting is essential. These concepts form the backbone of modern network design and are critical for building secure, scalable, and high-performance environments.
+Knowing how to segment a network properly allows you to:
+Control and limit access between departments (e.g., finance and HR) Isolate sensitive devices or servers from the rest of the network Reduce the spread of malware or unauthorized traffic in case of a breach Optimize network performance by minimizing unnecessary broadcast traffic You’ll often apply this knowledge in real-world scenarios such as:
+" />
+<meta property="og:url" content="/guides/subnets/" />
+<meta property="og:site_name" content="MarcoInTech" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-03-24 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    MarcoInTech
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/guides">Guides</a></li>
+        
+      
+        
+          <li><a href="/tools">Software</a></li>
+        
+      
+        
+          <li><a href="/troubleshooting">Troubleshooting</a></li>
+        
+      
+        
+          <li><a href="/cybersecurity">Cybersecurity</a></li>
+        
+      
+        
+          <li><a href="/contacts">Contacts</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/guides" >Guides</a></li>
+        
+      
+        
+          <li><a href="/tools" >Software</a></li>
+        
+      
+        
+          <li><a href="/troubleshooting" >Troubleshooting</a></li>
+        
+      
+        
+          <li><a href="/cybersecurity" >Cybersecurity</a></li>
+        
+      
+        
+          <li><a href="/contacts" >Contacts</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/guides/subnets/">Understanding Network Segmentation and Subnetting</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-03-24</time></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/networking/">Networking</a>&nbsp;
+      
+      #<a href="/tags/subnetting/">Subnetting</a>&nbsp;
+      
+      #<a href="/tags/it/">IT</a>&nbsp;
+      
+      #<a href="/tags/basics/">Basics</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h2 id="why-it-matters">Why It Matters<a href="#why-it-matters" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Whether you&rsquo;re working in IT support, system administration, or cybersecurity, having a solid grasp of <strong>network segmentation</strong> and <strong>subnetting</strong> is essential. These concepts form the backbone of modern network design and are critical for building secure, scalable, and high-performance environments.</p>
+<p>Knowing how to segment a network properly allows you to:</p>
+<ul>
+<li>Control and limit access between departments (e.g., finance and HR)</li>
+<li>Isolate sensitive devices or servers from the rest of the network</li>
+<li>Reduce the spread of malware or unauthorized traffic in case of a breach</li>
+<li>Optimize network performance by minimizing unnecessary broadcast traffic</li>
+</ul>
+<p>You’ll often apply this knowledge in real-world scenarios such as:</p>
+<ul>
+<li>Designing network infrastructures for offices or data centers</li>
+<li>Managing VLANs and IP allocation in corporate environments</li>
+<li>Implementing security policies based on Zero Trust architecture</li>
+<li>Troubleshooting communication issues between different subnets</li>
+</ul>
+<p>Understanding how IP addresses, subnets, and masks work under the hood equips you to confidently navigate and shape the</p>
+<hr>
+<h2 id="what-is-network-segmentation">What Is Network Segmentation?<a href="#what-is-network-segmentation" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p><strong>Network segmentation</strong> is the process of dividing a computer network into smaller parts called <strong>subnetworks</strong> or <strong>subnets</strong>. These logical divisions help control the flow of traffic and improve security by isolating different parts of the network.</p>
+<p>By segmenting a network, you can:</p>
+<ul>
+<li>Apply different security rules to different zones</li>
+<li>Reduce the impact of internal threats</li>
+<li>Improve performance and organization</li>
+</ul>
+<p>In the past, IT teams focused mainly on <strong>perimeter security</strong>, thinking external threats were the most dangerous. Today, with <strong>Zero Trust</strong> principles, internal traffic is also closely monitored to prevent breaches within the network itself.</p>
+<hr>
+<h2 id="what-is-a-subnet">What Is a Subnet?<a href="#what-is-a-subnet" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>A <strong>subnet</strong> (short for subnetwork) is a smaller, logical section of a larger network. Subnets are identified by a specific <strong>IP address range</strong>, and they allow devices in the same subnet to communicate directly. If two devices are on different subnets, they need a router to talk to each other.</p>
+<hr>
+<h2 id="what-is-an-ip-address">What Is an IP Address?<a href="#what-is-an-ip-address" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>An <strong>IP (Internet Protocol) address</strong> is a unique identifier for a device on a network — like a street address for your computer. Every device on a network has its own IP address.</p>
+<p>There are two main versions:</p>
+<ul>
+<li><strong>IPv4</strong>: The most common. It&rsquo;s a 32-bit number written as four decimal numbers separated by dots (e.g., <code>192.168.1.1</code>).</li>
+<li><strong>IPv6</strong>: A newer version using 128 bits, designed to support more devices in the future.</li>
+</ul>
+<p>Each part of an IPv4 address is called an <strong>octet</strong>, and it can have a value between <strong>0 and 255</strong>.</p>
+<hr>
+<h2 id="what-are-ip-address-classes">What Are IP Address Classes?<a href="#what-are-ip-address-classes" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>IPv4 addresses are divided into <strong>classes</strong> (A, B, and C) based on how many networks and hosts they support.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Class</strong></th>
+          <th><strong>Range</strong></th>
+          <th><strong>Used For</strong></th>
+          <th><strong>Hosts per Network</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Class A</td>
+          <td>1.0.0.0 - 127.255.255.255</td>
+          <td>Very large networks</td>
+          <td>~16 million hosts</td>
+      </tr>
+      <tr>
+          <td>Class B</td>
+          <td>128.0.0.0 - 191.255.255.255</td>
+          <td>Medium-sized networks</td>
+          <td>~65,000 hosts</td>
+      </tr>
+      <tr>
+          <td>Class C</td>
+          <td>192.0.0.0 - 223.255.255.255</td>
+          <td>Small networks (offices, homes)</td>
+          <td>Up to 254 hosts</td>
+      </tr>
+  </tbody>
+</table>
+<p>Each class defines how the IP address is split between the <strong>Network ID</strong> and the <strong>Host ID</strong>:</p>
+<ul>
+<li><strong>Network ID</strong>: Identifies the subnet</li>
+<li><strong>Host ID</strong>: Identifies a specific device within that subnet</li>
+</ul>
+<hr>
+<h2 id="what-is-a-subnet-mask">What Is a Subnet Mask?<a href="#what-is-a-subnet-mask" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>A <strong>subnet mask</strong> is a 32-bit number that defines how much of the IP address represents the <strong>network</strong> portion versus the <strong>host</strong> portion.</p>
+<p>Here’s a simple example:</p>
+<p><code>IP Address : 172.18.2.11 → 10101100.00010010.00000010.00001011 Subnet Mask : 255.255.0.0 → 11111111.11111111.00000000.00000000 Binary AND : → 10101100.00010010.00000000.00000000 Network ID : 172.18.0.0</code></p>
+<p>The <strong>AND operation</strong> shows how the subnet mask helps extract the Network ID from an IP address. This is how devices determine whether another host is in the same subnet or not.</p>
+<hr>
+<h2 id="why-is-subnetting-important">Why Is Subnetting Important?<a href="#why-is-subnetting-important" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Subnetting helps:</p>
+<ul>
+<li>Improve <strong>network performance</strong></li>
+<li>Add <strong>security boundaries</strong></li>
+<li>Organize devices in a scalable and efficient way</li>
+<li>Reduce <strong>broadcast traffic</strong></li>
+</ul>
+<p>Understanding how subnetting works is a fundamental part of managing and securing networks — whether you&rsquo;re working in IT support, system administration, or cybersecurity.</p>
+<hr>
+<p>📘 For more details, check the official Microsoft guide:<br>
+<a href="https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting">IP Addressing and Subnetting</a></p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

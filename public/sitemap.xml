@@ -3,18 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/basics/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/guides/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/it/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/networking/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/subnetting/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/guides/subnets/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cybersecurity/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/guides/</loc>
-    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/it-infrastructure/</loc>
-    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/networking/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/powershell/</loc>
@@ -27,9 +42,6 @@
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/security/</loc>
-    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/guides/vlan/</loc>
