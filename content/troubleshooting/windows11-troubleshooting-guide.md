@@ -28,7 +28,7 @@ Windows includes a classic tool called **Disk Cleanup** that helps remove tempor
 4. Select all checkboxes you want to delete, then press **OK**
 
 ![Disk Cleanup window](/images/windows11-troubleshooting/diskcleanupmain.png)  
-![System files selection](/images/windows11-troubleshooting/disk-cleanup-system-files.png/)  
+![System files selection](/images/windows11-troubleshooting/disk-cleanup-system-files.png)  
 
 ---
 
