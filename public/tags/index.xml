@@ -6,8 +6,43 @@
     <description>Recent content in Tags on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IT Support</title>
+      <link>/tags/it-support/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/it-support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Registry</title>
+      <link>/tags/registry/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/registry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>/tags/security/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System Administration</title>
+      <link>/tags/system-administration/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/system-administration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Built-in Tools</title>
       <link>/tags/built-in-tools/</link>
@@ -20,13 +55,6 @@
       <link>/tags/guides/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
       <guid>/tags/guides/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IT Support</title>
-      <link>/tags/it-support/</link>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/it-support/</guid>
       <description></description>
     </item>
     <item>
@@ -100,24 +128,10 @@
       <description></description>
     </item>
     <item>
-      <title>Security</title>
-      <link>/tags/security/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>VLANs</title>
       <link>/tags/vlans/</link>
       <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
       <guid>/tags/vlans/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows</title>
-      <link>/tags/windows/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/windows/</guid>
       <description></description>
     </item>
   </channel>

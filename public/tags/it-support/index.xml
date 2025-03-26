@@ -6,8 +6,15 @@
     <description>Recent content in IT Support on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/it-support/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Registry Value Types --&gt; What They Are and Why They Matter</title>
+      <link>/guides/registry-value-types-guide/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/guides/registry-value-types-guide/</guid>
+      <description>&lt;p&gt;The Windows Registry is a critical part of the operating system—a database that stores settings and options for Windows itself and all installed applications. Inside this system, every stored value has a &lt;strong&gt;type&lt;/strong&gt;, and that type determines how the data is interpreted.&lt;/p&gt;&#xA;&lt;p&gt;In this guide, I’ll walk you through the most common &lt;strong&gt;Registry Value Types&lt;/strong&gt;, what they represent, when they’re used, and why they matter from both a configuration and security perspective.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Speed Up Your Windows 11 Laptop</title>
       <link>/troubleshooting/windows11-troubleshooting-guide/</link>

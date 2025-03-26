@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Administration on MarcoInTech</title>
+    <link>/tags/system-administration/</link>
+    <description>Recent content in System Administration on MarcoInTech</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/system-administration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Registry Value Types --&gt; What They Are and Why They Matter</title>
+      <link>/guides/registry-value-types-guide/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/guides/registry-value-types-guide/</guid>
+      <description>&lt;p&gt;The Windows Registry is a critical part of the operating system—a database that stores settings and options for Windows itself and all installed applications. Inside this system, every stored value has a &lt;strong&gt;type&lt;/strong&gt;, and that type determines how the data is interpreted.&lt;/p&gt;&#xA;&lt;p&gt;In this guide, I’ll walk you through the most common &lt;strong&gt;Registry Value Types&lt;/strong&gt;, what they represent, when they’re used, and why they matter from both a configuration and security perspective.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
