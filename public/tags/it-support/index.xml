@@ -6,8 +6,15 @@
     <description>Recent content in IT Support on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/it-support/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Troubleshoot SCCM Client Issues</title>
+      <link>/troubleshooting/troubleshoot-sccm-client/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/troubleshooting/troubleshoot-sccm-client/</guid>
+      <description>&lt;h1 id=&#34;how-to-troubleshoot-sccm-client-issues&#34;&gt;How to Troubleshoot SCCM Client Issues&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-sccm&#34;&gt;What is SCCM?&lt;/h2&gt;&#xA;&lt;p&gt;SCCM (System Center Configuration Manager), now part of &lt;strong&gt;Microsoft Endpoint Configuration Manager&lt;/strong&gt;, is a systems management platform that enables IT administrators to manage large groups of Windows-based computers. It provides tools for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Software deployment&lt;/li&gt;&#xA;&lt;li&gt;Operating system imaging&lt;/li&gt;&#xA;&lt;li&gt;Patch management&lt;/li&gt;&#xA;&lt;li&gt;Inventory collection&lt;/li&gt;&#xA;&lt;li&gt;Remote control&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;SCCM relies on a local client agent installed on each managed machine. When the SCCM client fails, the device may stop receiving software updates, policies, or applications, and Software Center may not launch. This guide covers essential troubleshooting steps to restore client functionality.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Registry Value Types --&gt; What They Are and Why They Matter</title>
       <link>/guides/registry-value-types-guide/</link>

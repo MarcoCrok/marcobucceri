@@ -3,12 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/guides/</loc>
-    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+    <loc>/tags/endpoint-management/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/troubleshooting/troubleshoot-sccm-client/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/it-support/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/sccm/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/troubleshooting/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/troubleshooting/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/guides/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/registry/</loc>
@@ -21,9 +39,6 @@
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/system-administration/</loc>
-    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/windows/</loc>
@@ -39,12 +54,6 @@
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/troubleshooting/windows11-troubleshooting-guide/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/troubleshooting/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/troubleshooting/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/windows-11/</loc>
@@ -86,6 +95,9 @@
     <loc>/tags/vlans/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/contacts/</loc>
+    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/guides/win_executables/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -94,8 +106,6 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/about/certifications/</loc>
-  </url><url>
-    <loc>/contacts/</loc>
   </url><url>
     <loc>/about/bio/</loc>
   </url><url>

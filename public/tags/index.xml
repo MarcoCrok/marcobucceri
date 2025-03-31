@@ -6,13 +6,34 @@
     <description>Recent content in Tags on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Endpoint Management</title>
+      <link>/tags/endpoint-management/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/endpoint-management/</guid>
+      <description></description>
+    </item>
     <item>
       <title>IT Support</title>
       <link>/tags/it-support/</link>
-      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
       <guid>/tags/it-support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SCCM</title>
+      <link>/tags/sccm/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/sccm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>/tags/troubleshooting/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/troubleshooting/</guid>
       <description></description>
     </item>
     <item>
@@ -62,13 +83,6 @@
       <link>/tags/performance/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
       <guid>/tags/performance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Troubleshooting</title>
-      <link>/tags/troubleshooting/</link>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/troubleshooting/</guid>
       <description></description>
     </item>
     <item>
