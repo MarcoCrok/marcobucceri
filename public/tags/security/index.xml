@@ -6,8 +6,15 @@
     <description>Recent content in Security on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH Authentication with Public Key: A Complete Guide</title>
+      <link>/cybersecurity/ssh-authentication-guide-with-header/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/cybersecurity/ssh-authentication-guide-with-header/</guid>
+      <description>&lt;p&gt;SSH (Secure Shell) is a widely used protocol for securely accessing remote systems. One of the most secure and convenient ways to authenticate over SSH is through &lt;strong&gt;public key authentication&lt;/strong&gt;. This guide will show you how to generate an SSH key pair, set it up on a remote host, and cover important security considerations and how to mitigate risks.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-ssh-public-key-authentication&#34;&gt;What Is SSH Public Key Authentication?&lt;/h2&gt;&#xA;&lt;p&gt;Instead of logging in with a username and password, public key authentication uses a &lt;strong&gt;pair of cryptographic keys&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Registry Value Types --&gt; What They Are and Why They Matter</title>
       <link>/guides/registry-value-types-guide/</link>

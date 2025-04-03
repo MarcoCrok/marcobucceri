@@ -6,8 +6,15 @@
     <description>Recent content on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH Authentication with Public Key: A Complete Guide</title>
+      <link>/cybersecurity/ssh-authentication-guide-with-header/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/cybersecurity/ssh-authentication-guide-with-header/</guid>
+      <description>&lt;p&gt;SSH (Secure Shell) is a widely used protocol for securely accessing remote systems. One of the most secure and convenient ways to authenticate over SSH is through &lt;strong&gt;public key authentication&lt;/strong&gt;. This guide will show you how to generate an SSH key pair, set it up on a remote host, and cover important security considerations and how to mitigate risks.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-ssh-public-key-authentication&#34;&gt;What Is SSH Public Key Authentication?&lt;/h2&gt;&#xA;&lt;p&gt;Instead of logging in with a username and password, public key authentication uses a &lt;strong&gt;pair of cryptographic keys&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Troubleshoot SCCM Client Issues</title>
       <link>/troubleshooting/troubleshoot-sccm-client/</link>
@@ -49,13 +56,6 @@
       <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
       <guid>/guides/vlan/</guid>
       <description>&lt;h1 id=&#34;understanding-vlans-virtual-local-area-networks&#34;&gt;Understanding VLANs: Virtual Local Area Networks&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-a-vlan&#34;&gt;What is a VLAN?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Virtual Local Area Network (VLAN)&lt;/strong&gt; is a method of &lt;strong&gt;network segmentation&lt;/strong&gt; that creates isolated logical networks within a physical switch. Unlike traditional LANs, which rely on &lt;strong&gt;physical topology&lt;/strong&gt; to group devices together, VLANs provide &lt;strong&gt;virtualized segmentation&lt;/strong&gt;, allowing network administrators to define communication boundaries without being restricted by physical connections.&lt;/p&gt;&#xA;&lt;p&gt;Each VLAN functions as an &lt;strong&gt;independent network&lt;/strong&gt;, meaning devices within the same VLAN can communicate directly, while communication between different VLANs requires a &lt;strong&gt;Layer 3 device&lt;/strong&gt; (router or Layer 3 switch). This logical separation improves &lt;strong&gt;security, performance, and network management&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contacts</title>
-      <link>/contacts/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/contacts/</guid>
-      <description></description>
     </item>
     <item>
       <title>Windows Executables Cheat Sheet</title>
