@@ -3,7 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/it-support/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/office/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/outlook/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/performance/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/troubleshooting/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/troubleshooting/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/troubleshooting/troubleshooting-outlook/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/windows-11/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/authentication/</loc>
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
@@ -23,25 +50,13 @@
     <loc>/cybersecurity/ssh-authentication-guide-with-header/</loc>
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/endpoint-management/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/troubleshooting/troubleshoot-sccm-client/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/it-support/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/sccm/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/troubleshooting/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/troubleshooting/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/guides/</loc>
@@ -65,13 +80,7 @@
     <loc>/tags/guides/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/performance/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/troubleshooting/windows11-troubleshooting-guide/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/windows-11/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/basics/</loc>

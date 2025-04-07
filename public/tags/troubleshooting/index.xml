@@ -6,8 +6,15 @@
     <description>Recent content in Troubleshooting on MarcoInTech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting Outlook: A Practical Guide for IT Support</title>
+      <link>/troubleshooting/troubleshooting-outlook/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/troubleshooting/troubleshooting-outlook/</guid>
+      <description>&lt;p&gt;When Outlook stops working as expected, users are quick to reach out—and often under pressure. Whether it&amp;rsquo;s slow performance, sync issues, or complete failure to launch, diagnosing Outlook problems requires a methodical approach.&lt;/p&gt;&#xA;&lt;p&gt;This guide outlines essential steps to troubleshoot Outlook, from basic checks to deeper diagnostic tools, helping you determine whether the root cause lies with the client, the server, or in between.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;basic-checks&#34;&gt;Basic Checks&lt;/h2&gt;&#xA;&lt;p&gt;Before diving into more advanced steps, start with a few quick validations:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Troubleshoot SCCM Client Issues</title>
       <link>/troubleshooting/troubleshoot-sccm-client/</link>
