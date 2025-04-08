@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/account/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/guides/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/it-support/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/passwordreset/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/guides/reset-windows11-local-password/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/troubleshooting/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/windows-11/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/office/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
@@ -17,19 +38,10 @@
     <loc>/tags/performance/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/troubleshooting/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/troubleshooting/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/troubleshooting/troubleshooting-outlook/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/windows-11/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/authentication/</loc>
@@ -58,9 +70,6 @@
   </url><url>
     <loc>/tags/sccm/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/guides/</loc>
-    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/registry/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>

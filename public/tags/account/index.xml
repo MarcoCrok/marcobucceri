@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Account on MarcoInTech</title>
+    <link>/tags/account/</link>
+    <description>Recent content in Account on MarcoInTech</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/account/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reset Local Account Password From Advanced Startup Options</title>
+      <link>/guides/reset-windows11-local-password/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/guides/reset-windows11-local-password/</guid>
+      <description>&lt;h2 id=&#34;-problem&#34;&gt;✅ Problem&lt;/h2&gt;&#xA;&lt;p&gt;You’ve forgotten the password to your &lt;strong&gt;local account&lt;/strong&gt; on a Windows 11 PC and can’t log in. There’s no Microsoft account attached, no password reset disk, and you don’t want to use third-party tools. The only way remaining is to format the laptop. But no, stop there and read below!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-goal&#34;&gt;🎯 Goal&lt;/h2&gt;&#xA;&lt;p&gt;Access the system and reset the password &lt;strong&gt;using only Windows built-in tools&lt;/strong&gt;, without reinstalling or losing any data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
